@@ -6,11 +6,11 @@ public static int birthDayCakeCandles(List<Integer> candles){
       if(max<candles,get(i)){
         max=candles.get(i);
       }
-    }//1st for loop
+    }
     for(int i=0;i<l;i++){
       if(max==candles.get(i)){
         count++;
       }
-    }//2nd for loop
+    }
     return count;
 }//method
